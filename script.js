@@ -82,7 +82,7 @@ $(document).ready(function(){
     //If the window size is less than 710, alert the user to resize the window
     $(document).on("mouseover", function(){
         if(window.innerWidth<=710){
-            alert("Resize the window and press OK to see the array!");
+            alert("Resize window and press OK to see the array!");
         }
     });
 });
