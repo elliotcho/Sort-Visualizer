@@ -1,0 +1,140 @@
+body{
+    background: lightgray;
+}
+
+#toolbar{
+    width:1600px;
+    height: 70px;
+    background: darkslategray;
+}
+
+.header{
+    display: inline-block;
+    margin-left: 30px;
+    color: white;
+    font-family: "Courier";
+}
+
+.divider{
+    display: inline-block;
+    background: white;
+    height: 40px;
+    width: 2px;
+    margin-left: 30px;
+}
+
+.slider{
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.slider:focus{
+    outline:none;
+}
+
+.slider::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 10px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    border-radius: 50%;
+    background: #00CC00;
+    cursor: pointer;
+}
+
+.button{
+    display: inline-block;
+    margin-left: 50px;
+    background: darkslategray;
+    color: white;
+    border: none;
+    font-size: 1.17em;
+    font-weight: bold;
+    font-family: "Courier";
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover{
+    color: lightgray;
+}
+
+#array{
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 65px;
+}
+
+.bars{
+    display: inline-block;
+    margin-right: 2px;
+    width:8px;
+    text-align: center;
+    background: #FF00FF;
+    color: white;
+    font-size: 0px;
+    font-family: "Comic sans MS", sans-serif;
+}
+
+@media screen and (max-width: 1465px){
+    #toolbar{
+        width: 190px;
+        height: 750px;
+    }
+
+    .header{
+        display: inline;
+        padding-bottom: 50px;
+        font-size:1.0em;
+    }
+
+    .divider{
+        display: block;
+        width: 100px;
+        height: 2px;
+        margin-bottom: 30px;
+        margin-right: 50px;
+        background: black;
+    }
+
+    .slider{
+        margin-bottom:50px;
+    }
+
+    .button{
+        display: block;
+        padding-top: 20px;
+        margin-bottom: 30px;
+        margin-left:20px;
+        font-size: 1.0em;
+    }
+
+    #array{
+        top: -20px;
+    }
+}
+
+@media screen and (max-width: 977px){
+    #toolbar{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 710px){
+    #array{
+        display:none;
+    }
+}
+
+
+
+

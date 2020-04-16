@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="UTF-8">
+   
+   <title>Sort Visualizer</title>
+
+   <!--Style sheets, jQuery, scripts-->
+   <link rel="stylesheet" href="style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+   <script src="bubbleSort.js"></script>
+   <script src="mergeSort.js"></script>
+   <script src="quickSort.js"></script>
+   <script src="library.js"></script>
+   <script src="script.js"></script>
+</head>
+
+<body>
+    <!--Tool bar-->
+    <div id="toolbar">
+        <!--Generate new array with the reset button-->
+        <button id="reset" class="button">Reset</button>
+        
+        <!--Slider to control animation speed-->
+        <div class="divider"></div>
+        <h3 class="header">Animation Speed</h3>
+        <input type="range" class="slider" id="changeSpeed" min=10 max=210 value=110>
+
+        <!--Slider to control input size-->
+        <div class="divider"></div>
+        <h3 class="header">Input Size</h3>
+        <input type="range" class="slider" id="changeSize" min=4 max=100 value=52>
+
+        <!--Buttons to sort array-->
+        <div class="divider"></div>
+        <button id="bubbleSort" class="button">Bubble Sort</button>
+        <button id="mergeSort" class="button">Merge Sort</button>
+        <button id="quickSort" class="button">Quick Sort</button>
+    </div>
+    
+    <div id="array">
+        <!--New array will be generated here.-->
+    </div>
+</body>
+</html>
+
