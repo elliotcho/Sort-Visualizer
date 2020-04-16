@@ -50,26 +50,6 @@ $(document).ready(function(){
         loadArray();
         
         changeWidth();
-
-        //different ways to center the array based on input size
-        if($("#array").css("top")!="-20px"){
-
-            if(size<15){
-                changeFontSize();
-                $("#array").css("top", "78px");
-                $("#array").css("margin-left", "-225px");
-            }
-
-            else if(size>70){
-                $("#array").css("top", "65px");
-                $("#array").css("margin-left", "-270px");
-            }
-        
-            else{
-                $("#array").css("top", "65px");
-                $("#array").css("margin-left", "-250px");
-            }
-        }
     });
 
     //bubble sort the array when the bubble sort buttion is clicked

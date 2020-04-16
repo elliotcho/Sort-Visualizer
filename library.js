@@ -78,12 +78,3 @@ function changeWidth(){
         $(this).css("width", (40/size)*(10) + "px");
     });
 }
-
-/*
-    chnage the font size of the bars so that it's visible
-*/
-function changeFontSize(){
-    $("#array").children("*").each(function(){
-        $(this).css("font-size", "0.9em");
-    });
-}
