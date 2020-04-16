@@ -108,8 +108,8 @@ body{
 
 .bars{
     display: inline-block;
-    margin-right: 2px;
     width:8px;
+    margin-right: 2px;
     text-align: center;
     background: #FF00FF;
     color: white;
