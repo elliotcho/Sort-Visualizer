@@ -60,7 +60,7 @@ body{
 .slider::-ms-thumb{
     width: 20px;
     height: 20px;
-    margin-top: -5px;
+    margin-top: 5px;
     border-radius: 50%;
     background: #00CC00;
     cursor: pointer;
